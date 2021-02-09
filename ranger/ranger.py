@@ -89,7 +89,7 @@ class Ranger(Optimizer):
         # Uncomment if you need to use the actual closure...
 
         # if closure is not None:
-        #loss = closure()
+        loss = closure()
 
         # Evaluate averages and grad, update param tensors
         for group in self.param_groups:
